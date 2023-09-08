@@ -1,4 +1,6 @@
 import './App.css'
+import "./Counter"
+import Counter from './Counter'
 
 function App() { /* CHaile normal function o deua jay */
   const handleClick=()=>{
@@ -11,6 +13,7 @@ function App() { /* CHaile normal function o deua jay */
   return (
     <>
       <h3>React Core Concepts Part-2</h3>
+      <Counter></Counter>
       <button onClick={handleClick}>Click Me</button>
       <button onClick={()=>{alert("We just write a function into onClick")}}>Click Different</button>
       {/* vejal ektu ulta */}
